@@ -35,8 +35,9 @@ p {
   font-weight: 300;
 }
 
-.btn {
-  border: none;
+.btn-blue {
+  font-size: 17px;
+  font-weight: 400;
   background-color: #6B72E1;
   color: white;
   border-radius: 5px;
@@ -44,8 +45,10 @@ p {
   box-shadow: 0 10px 30px rgba(0,0,0,.1)
 }
 
-.btn:hover {
-  background-color: #ee6f57
+.btn-blue:hover {
+  background-color: #ee6f57;
+  color: white;
+  cursor: pointer;
 }
 
 a {
